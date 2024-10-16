@@ -1,0 +1,118 @@
+/* styles.css */
+/* Style the navigation bar */
+header {
+    background-color: #f0f0f0; /* light gray background */
+    padding: 1em; /* add some padding */
+    text-align: center; /* center the content */
+    border-bottom: 1px solid #ccc; 
+  }
+  
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  /* Style the navigation bar links */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+  }
+  
+  /* Style the navigation bar links on hover */
+  nav a:hover {
+    background-color: #444;
+  }
+  
+  /* Style the navigation bar list items */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation bar list items */
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-container {
+    display: -moz-grid-group;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  .item-container .item {
+    margin: 20px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+.item {
+    margin: 20px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  .item .price {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.cart {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
